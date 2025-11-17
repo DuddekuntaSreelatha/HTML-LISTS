@@ -1,92 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pastel Aesthetic Portfolio 💗✨</title>
+
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            background: linear-gradient(135deg, #ffe6f2, #ffd9ec, #ffeef8);
+            margin: 0;
+            padding: 0;
+            color: #5a4b50;
+        }
+
+        /* HEADER */
+        .header {
+            text-align: center;
+            padding: 45px 15px;
+            background: rgba(255, 240, 250, 0.7);
+            backdrop-filter: blur(12px);
+            border-bottom: 3px solid #ffbddd;
+            box-shadow: 0 8px 25px rgba(255, 170, 210, 0.4);
+        }
+
+        .header h1 {
+            font-size: 2.8rem;
+            color: #ff5fa9;
+            letter-spacing: 1px;
+            text-shadow: 0 2px 6px rgba(255, 160, 195, 0.35);
+        }
+
+        .subtitle {
+            color: #ff8fc9;
+            font-size: 1.15rem;
+        }
+
+        /* CONTAINER */
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* CARDS */
+        .card {
+            background: rgba(255, 255, 255, 0.75);
+            border-radius: 20px;
+            padding: 20px 25px;
+            margin-bottom: 30px;
+            border: 1px solid #ffd7eb;
+            box-shadow: 0 6px 20px rgba(255, 170, 215, 0.3);
+            backdrop-filter: blur(10px);
+            animation: fadeInUp 0.7s ease forwards;
+        }
+
+        .card h2 {
+            color: #ff3f8f;
+            font-size: 1.5rem;
+            border-left: 5px solid #ffa7d6;
+            padding-left: 12px;
+            margin-bottom: 15px;
+        }
+
+        /* LISTS */
+        ul li,
+        ol li,
+        dd {
+            font-size: 1.05rem;
+            margin: 6px 0;
+        }
+
+        dt {
+            font-size: 1.1rem;
+            color: #ff4ea7;
+            font-weight: bold;
+        }
+
+        /* FOOTER */
+        .footer {
+            text-align: center;
+            padding: 18px;
+            margin-top: 35px;
+            background: rgba(255, 235, 245, 0.7);
+            border-top: 2px solid #ffbcd9;
+            color: #ff69a6;
+            font-size: 1.1rem;
+            backdrop-filter: blur(10px);
+        }
+
+        /* PRETTY ANIMATION */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(25px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
 </head>
+
 <body>
-    <h1>👩‍💻My Life & Skills Portfolio</h1>
-    <h2>Major Life Events</h2>
-    <ol>
-        <li>Born in 2003</li>
-        <li>Grad from 2025</li>
-        <li>Got Frist JOB 2025</li>
-    </ol>
-    <h2>👩‍🎓Achievements</h2>
-    <ol type="A"start="1">
-        <li>Got into Enginnering</li>
-        <li>In College met a Spl. Friend</li>
-        <li>Join TAP Academy</li>
-    </ol>
-    <h2>👩‍🔬Research projects</h2>
-    <ol type="I">
-        <li>AI in HealthCare</li>
-        <li>Ml in Agriculture</li>
-    </ol>
-    <h2>🛠 Technical Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
-    <h2>⚒ Tool I Use</h2>
-        <ul type="square">
-            <li>VS CODE</li>
-            <li>GIT HUB</li>
-            <li>Eclipse</li>
-        </ul>
-    <h2>🖌 Hobbies</h2>
-    <ul type="circle">
-        <li>Photograph</li>
-        <li>Blogging</li>
-        <li>Traveling</li>
-    </ul>
-    <h2>📚Tech Glossary</h2>
-    <dl>
-        <dt>HTML</dt>
-        <dd>HTML is the standard markup language for Web pages.
 
-With HTML you can create your own Website.
+    <header class="header">
+        <h1>💗 My Pastel Life & Skills Portfolio 💗</h1>
+        <p class="subtitle">Soft • Pink • Dreamy • Aesthetic 🌸</p>
+    </header>
 
-HTML is easy to learn - You will enjoy it!
+    <div class="container">
 
-</dd>
-<dt>CSS</dt>
-<dd>CSS is the language we use to style an HTML document.
+        <section class="card">
+            <h2>🎀 Major Life Events</h2>
+            <ol>
+                <li>Born in 2003 🌸</li>
+                <li>Graduated in 2025 🎓</li>
+                <li>Got First Job in 2025 ✨</li>
+            </ol>
+        </section>
 
-CSS describes how HTML elements should be displayed.
+        <section class="card">
+            <h2>👑 Achievements</h2>
+            <ol type="A">
+                <li>Got into Engineering 💗</li>
+                <li>Met a Special Friend 💞</li>
+                <li>Joined TAP Academy 📘</li>
+            </ol>
+        </section>
 
-This tutorial will teach you CSS from basic to advanced.
+        <section class="card">
+            <h2>🔬 Research Projects</h2>
+            <ol type="I">
+                <li>AI in Healthcare 💉</li>
+                <li>ML in Agriculture 🌱</li>
+            </ol>
+        </section>
 
-</dd>
-<dt>JS</dt>
-<dd>The Programming Language of the Web
-JavaScript is easy to learn.
-
-This tutorial covers everything from basic JavaScript up to the latest 2025 version.
-
-
-</dd>
-    </dl>
-    <h2>🎯 Personal Development Plan</h2>
-    <ol>
-        <li>Short-Term Goals
+        <section class="card">
+            <h2>🛠 Technical Skills</h2>
             <ul>
-                <li>Master react</li>
-                <li>Get AWS certified</li>
+                <li>HTML 🌸</li>
+                <li>CSS 🎀</li>
+                <li>JavaScript ✨</li>
             </ul>
+        </section>
 
-        </li>
-        <li>Long term Goal
+        <section class="card">
+            <h2>🎨 Tools I Use</h2>
             <ul type="square">
-                    <li>Build a SAAS project</li>
-                    <li>
-                        Start Tech Youtube Channel
-                    </li>
+                <li>VS Code 💻</li>
+                <li>GitHub 🐙</li>
+                <li>Eclipse ☀️</li>
             </ul>
-        </li>
+        </section>
 
-    </ol>
+        <section class="card">
+            <h2>🌷 Hobbies</h2>
+            <ul type="circle">
+                <li>Photography 📸</li>
+                <li>Blogging 📝</li>
+                <li>Traveling ✈️</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>📚 Tech Glossary</h2>
+            <dl>
+                <dt>HTML</dt>
+                <dd>The cute skeleton of every webpage 💗</dd>
+
+                <dt>CSS</dt>
+                <dd>Where all the beauty and styling magic happens 🎀</dd>
+
+                <dt>JavaScript</dt>
+                <dd>The sparkly brain that brings life ✨</dd>
+            </dl>
+        </section>
+
+        <section class="card">
+            <h2>🎯 Personal Development Plan</h2>
+            <ol>
+                <li>Short-Term Goals:
+                    <ul>
+                        <li>Master React ⚛️</li>
+                        <li>Get AWS Certified ☁️</li>
+                    </ul>
+                </li>
+
+                <li>Long-Term Goals:
+                    <ul type="square">
+                        <li>Build a SaaS Project 💼</li>
+                        <li>Start a Tech YouTube Channel 📺</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
+    </div>
+
+    <footer class="footer">
+        🌸 Made with Love & Pink Pastels • 2025 🌸
+    </footer>
+
 </body>
 </html>
